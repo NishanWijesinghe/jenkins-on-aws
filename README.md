@@ -33,6 +33,13 @@ To deploy this environment, we will use the [aws-cdk](https://github.com/aws/aws
 - Please follow the requirements to install from the cdk github repo
 - Tested with the following version: `1.15.0 (build bdbe3aa)`
 
+To install CDK on Mac:
+```
+brew update
+brew upgrade node
+npm i -g aws-cdk
+```
+
 ## Fargate Jenkins (Master and Workers)
 
 Set config.ini
